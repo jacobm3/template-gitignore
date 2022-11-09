@@ -39,7 +39,7 @@ init
 init.json
 init.out
 init.txt
-license.txt
+license*
 override.tf
 override.tf.json
 secret.tfvars
