@@ -1,19 +1,16 @@
 # Terraform
 **/.terraform/*
-secret.tfvars
-terraform.rc
 *.tfstate
 *.tfstate.*
 *tfplan*
 tf.apply.out
 tf.plan.out
 .terraform.lock.hcl
-.terraform.lock.hcl
 .terraformrc
 terraform.rc
 override.tf
 override.tf.json
-
+secret.tfvars
 
 # Keys
 *.crt
