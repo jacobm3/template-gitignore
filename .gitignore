@@ -11,25 +11,34 @@ tf.plan.out
 .terraform.lock.hcl
 .terraformrc
 terraform.rc
+override.tf
+override.tf.json
 
-# other
+
+# Keys
+*.crt
+*.csr
+*.p7b
+*.pem
+*token
+*.key
+
+
+# Data files
+*.xlsx
+*.zip
+
+
+# Other
 **/*.pyc
 *.audit
 *.bak*
-*.crt
-*.csr
 *.csv
 *.debug
 *.err
-*.key
 *.log
 *.out
-*.p7b
-*.pem
 *.swp
-
-*.xlsx
-*.zip
 *_override.tf
 *_override.tf.json
 *hclic
@@ -37,13 +46,10 @@ terraform.rc
 *passwd
 *password
 *snap
-
 *tmp*
-*token
 .init.json
 .init.out
 .init.txt
-
 __pycache__
 audit
 init
@@ -51,7 +57,6 @@ init.json
 init.out
 init.txt
 license*
-override.tf
-override.tf.json
-secret.tfvars
+
+
 
