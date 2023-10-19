@@ -1,5 +1,19 @@
-**/*.pyc
+# Terraform
 **/.terraform/*
+secret.tfvars
+terraform.rc
+*.tfstate
+*.tfstate.*
+*tfplan*
+tf.apply.out
+tf.plan.out
+.terraform.lock.hcl
+.terraform.lock.hcl
+.terraformrc
+terraform.rc
+
+# other
+**/*.pyc
 *.audit
 *.bak*
 *.crt
@@ -13,8 +27,7 @@
 *.p7b
 *.pem
 *.swp
-*.tfstate
-*.tfstate.*
+
 *.xlsx
 *.zip
 *_override.tf
@@ -24,15 +37,13 @@
 *passwd
 *password
 *snap
-*tfplan*
+
 *tmp*
 *token
 .init.json
 .init.out
 .init.txt
-.terraform.lock.hcl
-.terraform.lock.hcl
-.terraformrc
+
 __pycache__
 audit
 init
@@ -43,5 +54,4 @@ license*
 override.tf
 override.tf.json
 secret.tfvars
-terraform.rc
-tf.plan.out
+
